@@ -1,0 +1,11 @@
+<span *ngIf="basicService.$loader | async">
+  <div id="backdrop">
+    <div class="d-flex justify-content-center vertical-align">
+      <div class="spinner-grow text-primary spinner-center" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+
+  </div>
+</span>
+<app-brands-list></app-brands-list>

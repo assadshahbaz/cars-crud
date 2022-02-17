@@ -1,0 +1,21 @@
+#backdrop {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  background-color: rgb(0, 0, 0, 0.2);
+}
+
+.vertical-align {
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+
+.spinner-center {
+  display: block;
+  position: fixed;
+  top: calc(50% - (58px / 2));
+  right: calc(50% - (58px / 2));
+}
